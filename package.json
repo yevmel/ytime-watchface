@@ -1,0 +1,28 @@
+{
+  "name": "ytime",
+  "author": "Yevgeniy Melnichuk <yevgeniy.melnichuk@googlemail.com>",
+  "version": "0.1",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "ytime",
+    "uuid": "29b903c1-de13-41d5-9716-f0b8fabe39a9",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
